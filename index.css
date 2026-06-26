@@ -1,11 +1,35 @@
-body {
+body{
+    margin: 0;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    background-color: lightgray;
 }
 
-.h1 {
-    text-align: center;
+.formes{
+    display: flex;
+    gap: 20px;
+}
+
+.rond{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.rond:nth-child(1){
+    background-color: rgb(41, 216, 28);
+}
+.rond:nth-child(2){
+    background-color: rgb(161, 16, 40);
+}
+.rond:nth-child(3){
+    background-color: rgb(35, 199, 199);
+}
+.rond:nth-child(4){
+    background-color: rgb(31, 14, 96);
+}
+.rond:nth-child(5){
+    background-color: rgb(29, 104, 29);
 }
